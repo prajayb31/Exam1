@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+         <h3>AWS Compute Services Comparison</h3>
+        <table class="table col-10" border >
+            <tr class="bg-info">
+                <th>Amazon EC2</th>
+                <th>Amazon EC2 Auto Scaling</th>
+                <th>AWS Lambda</th>
+                <th>AWS Batch</th>
+                <th>AWS Outposts</th>
+            </tr>
+            <tr>
+                <td><b>ELASTIC WEB-SCALE COMPUTING</b><br>
+Amazon EC2 enables you to increase or decrease capacity within minutes, not hours or days. You can commission one, hundreds, or even thousands of server instances simultaneously. You can also use Amazon EC2 Auto Scaling to maintain availability of your EC2 fleet and automatically scale your fleet up and down depending on its needs in order to maximize performance and minimize cost. To scale multiple services, you can use AWS Auto Scaling.</td>
+                <td>
+                    <b>IMPROVE FAULT TOLERANCE</b><br>
+Amazon EC2 Auto Scaling can detect when an instance is unhealthy, terminate it, and replace it with a new one. 
+                </td>
+                <td>
+                    <b> NO SERVERS TO MANAGE</b><br>
+AWS Lambda automatically runs your code without requiring you to provision or manage servers. Just write the code and upload it to Lambda.
+                </td>
+                <td>
+                    <b> Fully managed</b><br>
+AWS Batch eliminates the need to operate third-party commercial or open source batch processing solutions. There is no batch software or servers to install or manage. AWS Batch manages all the infrastructure for you, avoiding the complexities of provisioning, managing, monitoring, and scaling your batch computing jobs. 
+                </td>
+                <td>
+                    <b>Extend AWS on-premises</b><br>
+                    AWS Outposts enable you to develop once and deploy in the AWS cloud or on-premises without having to rewrite your applications. With Outposts, you have the same hardware and software infrastructure and a consistent set of services and tools across your AWS cloud and on-premises environments to build and run modern, cloud-native applications anywhere.
+                </td>                
+            </tr>
+            <tr>
+                <td><b>COMPLETELY CONTROLLED</b><br>
+You have complete control of your instances including root access and the ability to interact with them as you would any machine. You can stop any instance while retaining the data on the boot partition, and then subsequently restart the same instance using web service APIs. Instances can be rebooted remotely using web service APIs, and you also have access to their console output.</td>
+                <td>
+                    <b>INCREASE APPLICATION AVAILABILITY</b><br>
+Amazon EC2 Auto Scaling ensures that your application always has the right amount of compute, and also proactively provisions capacity with Predictive Scaling.
+                </td>
+                <td>
+                    <b>CONTINUOUS SCALING</b><br>
+AWS Lambda automatically scales your application by running code in response to each trigger. Your code runs in parallel and processes each trigger individually, scaling precisely with the size of the workload.
+                </td>
+                <td>
+                    <b>Integrated with AWS</b><br>
+AWS Batch is natively integrated with the AWS platform, allowing you to leverage the scaling, networking, and access management capabilities of AWS. This makes it easy to run jobs that safely and securely retrieve and write data to and from AWS data stores such as Amazon S3 or Amazon DynamoDB.
+                </td>
+                <td>
+                    <b>Choice of management planes</b><br>
+AWS Outposts allow you to choose the AWS native variant of AWS Outposts or the VMware Cloud on AWS Outposts variant as your management plane for your APIs, management console, automation, governance policies, and security controls for all your applications across the AWS cloud and on-premises locations.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>FLEXIBLE CLOUD HOSTING SERVICES</b><br>
+You have the choice of multiple instance types, operating systems, and software packages. Amazon EC2 allows you to select a configuration of memory, CPU, instance storage, and the boot partition size that is optimal for your choice of operating system and application. For example, choice of operating systems includes numerous Linux distributions and Microsoft Windows Server.
+                </td>
+                <td>
+                    <b>LOWER COSTS</b><br>
+Amazon EC2 Auto Scaling adds instances only when needed, and can scale across purchase options to optimize performance and cost.
+                </td>
+                <td>
+                    <b>SUBSECOND METERING</b><br>
+With AWS Lambda, you are charged for every 100ms your code executes and the number of times your code is triggered. You don't pay anything when your code isn't running.
+                </td>
+                <td>
+                    <b>Cost optimized resource provisioning</b><br>
+AWS Batch provisions compute resources and optimizes the job distribution based on the volume and resource requirements of the submitted batch jobs. AWS Batch dynamically scales compute resources to any quantity required to run your batch jobs, freeing you from the constraints of fixed-capacity clusters. AWS Batch also dynamically bids for Spot Instances on your behalf, reducing the cost of running your batch jobs further.
+                </td>
+                <td>
+                    <b>Fully managed</b><br>
+AWS Outposts are fully managed and supported by AWS, and AWS automatically manages and updates AWS Outposts as part of its ongoing operations in the public AWS region. You do not have to worry about updating or patching infrastructure.
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

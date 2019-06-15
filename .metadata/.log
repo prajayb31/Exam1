@@ -1,0 +1,263 @@
+!SESSION 2019-06-15 11:02:53.957 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-15 11:03:42.276
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-15 11:03:53.245
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-15 11:04:06.050
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:06:49.127
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException: 10779
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileStruct.u2At(ClassFileStruct.java:55)
+	at org.eclipse.jdt.internal.compiler.classfmt.InnerClassInfo.<init>(InnerClassInfo.java:38)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:373)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:10:56.982
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException: 10779
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileStruct.u2At(ClassFileStruct.java:55)
+	at org.eclipse.jdt.internal.compiler.classfmt.InnerClassInfo.<init>(InnerClassInfo.java:38)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:373)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-15 11:11:22.184
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:13:27.456
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException: 10779
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileStruct.u2At(ClassFileStruct.java:55)
+	at org.eclipse.jdt.internal.compiler.classfmt.InnerClassInfo.<init>(InnerClassInfo.java:38)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:373)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:16:00.722
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:16:38.370
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:16:43.893
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:18:18.912
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:22:21.980
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:22:22.782
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:23:52.556
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:46:40.716
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:47:21.447
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:48:23.928
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:48:33.225
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-06-15 11:52:32.024
+!MESSAGE The Java indexing could not index C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!STACK 0
+org.eclipse.jdt.internal.compiler.classfmt.ClassFormatException
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:477)
+	at org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>(ClassFileReader.java:180)
+	at org.eclipse.jdt.internal.core.search.indexing.BinaryIndexer.indexDocument(BinaryIndexer.java:652)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:73)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:546)
+	at org.eclipse.jdt.internal.core.search.indexing.AddJarFileToIndex.execute(AddJarFileToIndex.java:244)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:401)
+	at java.lang.Thread.run(Thread.java:748)
+Caused in C:/Program Files/Java/jdk1.8.0_131/jre/lib/ext/jfxrt.jar|com/sun/javafx/scene/control/skin/CustomColorDialog.class by: java.lang.ArrayIndexOutOfBoundsException

@@ -1,0 +1,23 @@
+package com.java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\group031\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://phptravels.org/clientarea.php");
+		
+		driver.findElement(By.xpath("//*[@id=\"header\"]/div/ul/li[3]/a"));
+		driver.findElement(By.id("inputFirstName")).sendKeys("Prajay");
+		driver.findElement(By.name("lastname")).sendKeys("Bahekar");
+	}
+
+}

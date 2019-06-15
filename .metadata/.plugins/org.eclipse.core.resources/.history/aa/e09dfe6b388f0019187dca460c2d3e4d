@@ -1,0 +1,43 @@
+package com.java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q2 {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\group031\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://phptravels.org/clientarea.php");
+		
+		driver.findElement(By.linkText("Register")).click();;
+		driver.findElement(By.id("inputFirstName")).sendKeys("prajay");
+		Thread.sleep(1000);
+		driver.findElement(By.id("inputLastName")).sendKeys("bahekar");
+		driver.findElement(By.id("inputEmail")).sendKeys("prajaybahekar@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"containerNewUserSignup\"]/div[2]/div[4]/div/div/div/div/div[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"containerNewUserSignup\"]/div[2]/div[4]/div/div/div/ul/li[102]")).click();
+		driver.findElement(By.id("inputPhone")).sendKeys("1234567890");
+		driver.findElement(By.xpath("//*[@id=\"inputCompanyName\"]")).sendKeys("ASHAPrivate Ltd.");
+		driver.findElement(By.xpath("//*[@id=\"inputAddress1\"]")).sendKeys("Paud Road");
+		driver.findElement(By.xpath("//*[@id=\"inputAddress2\"]")).sendKeys("Kothrud");
+		driver.findElement(By.xpath("//*[@id=\"inputCity\"]")).sendKeys("Pune");
+		driver.findElement(By.xpath("//*[@id=\"stateinput\"]")).sendKeys("Maharashtra");
+		driver.findElement(By.xpath("//*[@id=\"inputPostcode\"]")).sendKeys("415468");
+		driver.findElement(By.id("inputCountry")).click();
+		driver.findElement(By.xpath("//*[@id=\"inputCountry\"]/option[102]")).click();
+		driver.findElement(By.xpath("//*[@id=\"inputTaxId\"]")).sendKeys("12345659");
+		driver.findElement(By.id("customfield1")).click();
+		driver.findElement(By.xpath("//*[@id=\"customfield1\"]/option[2]")).click();
+		driver.findElement(By.xpath("//*[@id=\"customfield2\"]")).sendKeys("656446456");
+		driver.findElement(By.xpath("//*[@id=\"inputNewPassword1\"]")).sendKeys("Prajay@1234");
+		driver.findElement(By.xpath("//*[@id=\"inputNewPassword2\"]")).sendKeys("Prajay@1234");
+		//driver.findElement(By.xpath("//*[@id=\"frmCheckout\"]/p/input")).click();
+	}
+
+}

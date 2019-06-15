@@ -1,0 +1,47 @@
+package com.java;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q2 {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\group031\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://phptravels.org/clientarea.php");
+		
+		driver.findElement(By.linkText("Register")).click();;
+		driver.findElement(By.name("firstname")).sendKeys("Prajay");
+		Thread.sleep(1000);
+		driver.findElement(By.name("lastname")).sendKeys("Bahekar");
+		driver.findElement(By.name("email")).sendKeys("prajaybahekar@gmail.com");
+	//	driver.findElement(By.className("flag-container")).click();
+		driver.findElement(By.name("phonenumber")).sendKeys("98456899462");
+		
+		driver.findElement(By.name("companyname")).sendKeys("abcPrivate Ltd");
+		driver.findElement(By.name("address1")).sendKeys("PaudRoad");
+		driver.findElement(By.name("address2")).sendKeys("Kothrud");
+		driver.findElement(By.name("city")).sendKeys("Pune");
+		driver.findElement(By.name("state")).sendKeys("Maharashtra");
+		driver.findElement(By.name("postcode")).sendKeys("434564");
+		driver.findElement(By.name("country")).sendKeys("India");
+		driver.findElement(By.name("tax_id")).sendKeys("265bhwge654");
+		
+		
+		driver.findElement(By.name("customfield[2]")).sendKeys("649698664698");
+		
+		
+		driver.findElement(By.name("password")).sendKeys("123456789");
+		driver.findElement(By.name("password2")).sendKeys("123456789");
+		
+	//	driver.findElement(By.xpath("//*[@id=\"frmCheckout\"]/div[3]/div")).click();
+		driver.findElement(By.xpath("//*[@id=\"frmCheckout\"]/p/input")).click();
+		
+	}
+
+}
